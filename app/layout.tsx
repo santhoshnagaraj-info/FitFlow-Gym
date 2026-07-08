@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "FitFlow - Premium Gym Experience",
   description: "Join Chennai's most modern fitness gym. Train better. Live stronger.",
   icons: {
-    icon: "/dummbell.jpg",
+    icon: "/images/dummbell.jpg",
   },
 };
 

@@ -14,7 +14,7 @@ const trainers = [
     followers: "2.4k",
     badge: "Certified",
     // Added /images/ to the path
-    url: "/images/Trainers-img/trainer-boy1.webp" 
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQEh1rwQf5BcVbUCeZZJZ1v5sJvBNSrnnL2CLb7w-Viw&s=10" 
   },
   {
     name: "Priya Sharma",
@@ -23,7 +23,7 @@ const trainers = [
     rating: 4.8,
     followers: "1.8k",
     badge: "Certified",
-    url: "/images/Trainers-img/trainer-girl.webp" 
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmtzauemt4w2aJSMJP_klq8tAEVN-YKWTqvwaUVFDJOw&s=10" 
   },
   {
     name: "Rahul Menon",
@@ -32,7 +32,7 @@ const trainers = [
     rating: 4.9,
     followers: "3.1k",
     badge: "Pro",
-    url: "/images/Trainers-img/trainer-boy2.webp"
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkOhCMfjU0kHClxtc9cUZFlbdt5_M8dOw_znaaw3fFPw&s=10"
   },
 ];
 
@@ -59,8 +59,11 @@ const Trainers = () => {
               src={trainer.url} 
               alt={trainer.name}
               fill // This makes it fill the parent div
+            
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 33vw"
+              unoptimized
+              priority
             />
             
             {/* Gradient Overlay */}
